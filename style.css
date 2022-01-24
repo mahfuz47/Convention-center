@@ -1,14 +1,71 @@
 /* Important Links */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
-  font-family: "Ubuntu", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
 
 /*----------------*\
  Banner Section 
 \*----------------*/
 
 .banner-image h1 {
-  font-size: 48px;
+    font-size: 48px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/*----------------*\
+ Location Section
+\*----------------*/
+
+.card-box {
+    transition: transform 0.2s ease;
+}
+
+.card-box:hover {
+    transform: scale(1.03);
+}
+
+.toast-box {
+    border-left: 5px solid red;
+    border-radius: 3px;
+}
+
+.package-box {
+    border-radius: 25px;
+    background-color: #f5f5fc;
+    transition: transform 0.2s ease;
+}
+
+.package-box h1,
+h2 {
+    color: #231d4f;
+}
+
+.package-box p {
+    color: #848199;
+}
+
+.package-box1 {
+    border-radius: 25px;
+    background-color: #f5f5fc;
+    color: ivory;
+    box-shadow: darkgray 10px 20px 20px;
+    transition: transform 0.2s ease;
+}
+
+.package-box i {
+    color: darkblue;
+    font-size: 15px;
+}
+
+.package-box:hover {
+    transform: scale(1.02);
+}
+
+.package-box1:hover {
+    transform: scale(1.05);
 }
