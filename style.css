@@ -1,0 +1,14 @@
+/* Important Links */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*----------------*\
+ Banner Section 
+\*----------------*/
+
+.banner-image h1 {
+  font-size: 48px;
+}
