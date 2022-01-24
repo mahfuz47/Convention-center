@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
     font-family: "Poppins", sans-serif;
+    margin: 0%;
 }
 
 
@@ -33,6 +34,11 @@ body {
     border-left: 5px solid red;
     border-radius: 3px;
 }
+
+
+/*----------------*\
+ Package Section
+\*----------------*/
 
 .package-box {
     border-radius: 25px;
@@ -68,4 +74,21 @@ h2 {
 
 .package-box1:hover {
     transform: scale(1.05);
+}
+
+
+/*-------------*\
+Footer Section 
+\*-------------*/
+
+footer {
+    background-color: #0b0d17;
+    height: 280px;
+    width: 100%;
+}
+
+footer p,
+h2 {
+    font-size: 12px;
+    color: darkgray;
 }
